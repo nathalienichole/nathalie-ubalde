@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0%;
+    background: url('barbie.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f8c3da;
+    font-family: 'Poppins', sans-serif;
+    color: #4b004b; 
+}
+ .home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+ }
+
+ .home-img img{
+    width: 280px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+ }
+
+ .home-content{
+    max-width: 550px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+ }
+ header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 40px;
+    position: sticky;
+    top: 0;
+}
+
+header nav{
+    display: flex;
+    gap: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.logo {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+ 
+/* Center content */
+.content {
+    text-align: center;
+    backdrop-filter: blur(1px);
+}
+
+/* Highlighted title */
+.highlight-title {
+    font-family: 'Lobster', cursive;
+    font-size: 90px;
+    text-shadow: 3px 3px 3px #5a005a;
+    background: linear-gradient(90deg, #080708, #ff8ee1, #fce9f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:normal;
+    margin-bottom: 2px;
+    
+}
+
+nav a {
+  font-size: 1.8rem;
+  color: white;
+  margin-left: 4rem;
+  font-weight: 500;
+  font-family: 'Montserrat', Arial, sans-serif;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 8px 14px;             /* para may space sa loob */
+  border-radius: 8px;            /* rounded box */
+  transition: all 0.3s ease;
+}
+
+nav a:hover,
+nav a:active {
+  color: white;                  /* text color sa hover */
+  background: rgb(153, 9, 167);  /* background color on hover */
+}
+
+/* work section */
+.works {
+  padding: 40px;
+}
+
+.work-category {
+  margin-bottom: 40px;
+}
+
+.work-category h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #4b004b;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
